@@ -1,0 +1,247 @@
+@font-face {
+  font-family: Martel;
+  src: url("http://localhost:3000/assets/fonts/martel.ttf");
+  /* src: url("http://localhost:3000/assets/fonts/martel.ttf"); */
+}
+
+::selection {
+  background: #4c0101;
+}
+
+.logo {
+  color: #fff;
+  font-size: 3em;
+  font-family: Martel;
+  cursor: pointer;
+  float: left;
+}
+
+.header-nav {
+  color: #fff;
+}
+.user-head {
+  float: right;
+}
+
+.user-head img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.side-bar-user {
+  display: inline-flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.side-bar-user img {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.sider-user-box {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.sider-user-name {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.sider-user-logout {
+  cursor: pointer;
+}
+
+.ant-dropdown-menu {
+  margin-top: 20px;
+}
+
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  /* background: #fff; */
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+
+.spinner {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.login-main {
+  background: url("https://i.pinimg.com/originals/01/e8/02/01e80267f63bce9fcae94e29bf3acfd3.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: blur(8px);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 0;
+  box-shadow: 0px 0px 0px 100px red;
+}
+
+.login-content {
+  position: fixed;
+  top: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+
+.login-header-text {
+  font-family: Martel;
+  text-align: center;
+  font-size: 4em;
+}
+
+.login-card {
+  border-radius: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: 0 0 50px red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cus-large-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.ant-btn-primary {
+  border-color: #310000;
+  background: #310000;
+}
+
+.success-btn {
+  border-color: #158533;
+  background: #158533;
+}
+
+.warning-btn {
+  border-color: #d4a120;
+  background: #d4a120;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  border-color: #4c0101;
+  background: #4c0101;
+}
+
+.ant-layout-header {
+  background: #310000;
+}
+
+.primary-text {
+  color: #310000;
+  font-weight: bold;
+}
+
+.ant-menu {
+  background-color: #310000;
+  color: #fff;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #4c0101;
+}
+
+.ant-menu-item-selected {
+  color: #fff;
+}
+
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: #fff;
+  background: #4c0101;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #4c0101;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.ant-layout-sider {
+  background: #310000 !important;
+}
+
+.ant-card-head {
+  background: #4c0101 !important;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.ant-layout-footer {
+  background: #fff;
+}
+
+.ant-card-head {
+  height: 60px;
+}
+
+.ant-layout-content{
+  margin: 10px !important;
+}
+
+.ant-modal-header{
+  background-color: #4c0101;
+}
+
+.ant-modal-title, .ant-modal-close{
+  color: #fff !important;
+}
+
+.ant-layout-sider-zero-width-trigger{
+  top: -53px;
+  right: -40px;
+}
+
+.link-sent-box{
+  text-align: center;
+}
+
+.whatsapp_widget_wrapper{
+  bottom: 90px !important;
+  right: 25px !important
+}
