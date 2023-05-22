@@ -2,8 +2,8 @@ import Axios from "axios";
 import moment from "moment";
 
 const API = Axios.create({
-  // baseURL: "https://builderapi.dfysaas.com",
-  baseURL: "http://localhost:3003",
+  baseURL: "https://builderapi.dfysaas.com",
+  // baseURL: "http://localhost:3003",
 });
 
 const api = (endPoint, data) => {
